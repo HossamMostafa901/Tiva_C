@@ -26,7 +26,7 @@ void Ultrasonic_Init(void)
 
 void trigger_measurement(void)
 {
-	GPIOPinWrite(GPIO_PORTC_BASE, GPIO_PIN_5, 1u);
+	GPIOPinWrite(GPIO_PORTC_BASE, GPIO_PIN_5, GPIO_PIN_5);
     SysCtlDelay(160U);
     GPIOPinWrite(GPIO_PORTC_BASE, GPIO_PIN_5,0u);
 }
