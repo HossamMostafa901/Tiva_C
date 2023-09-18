@@ -22,8 +22,9 @@
 #include "driverlib/uart.h"
 
 #include "uart_config.h"
-
+/*in this project we have three state one no uart second listiening or reciveing third is chat*/
 #define ARRAY_SIZE   200
+/*we choose here one to be sender or reciver in 2nd state that do one job second code in another computer will be the ooposite choice*/
 #define SENDER_ECU
 /* Function declaration */
 void DIO_init(void);
@@ -53,6 +54,7 @@ int main(void)
      */
 
     /* infinity loop */
+    /**to konw in which state led will be change in every state/
     while(1)
     {
         if(count==0)
