@@ -2,7 +2,7 @@
  * main.c
  *
  *  Created on: Aug 31, 2023
- *      Author: Mohamed Abdelazez
+ *      Author: DELL
  */
 #include "internal_temp_sensor.h"
 #include "lcd.h"
